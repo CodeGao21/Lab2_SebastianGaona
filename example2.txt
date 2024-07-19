@@ -1,0 +1,69 @@
+Onboarding Personal Information Agent (to customer_proxy_agent):
+
+Hello, I'm here to help you get started with our product. Could you tell me your name and location?
+
+--------------------------------------------------------------------------------
+Provide feedback to Onboarding Personal Information Agent. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: customer_proxy_agent (to Onboarding Personal Information Agent):
+
+Sebastian
+
+--------------------------------------------------------------------------------
+Onboarding Personal Information Agent (to customer_proxy_agent):
+
+Thanks, Sebastian. And where are you located? 
+
+
+--------------------------------------------------------------------------------
+Provide feedback to Onboarding Personal Information Agent. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: customer_proxy_agent (to Onboarding Personal Information Agent):
+
+Bogota
+
+--------------------------------------------------------------------------------
+Onboarding Topic preference Agent (to customer_proxy_agent):
+
+Great! Could you tell me what topics you are interested in reading about?
+Context: 
+{'content': "```json\n{'name': 'Sebastian', 'location': 'Bogota'}\n``` \n", 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+
+--------------------------------------------------------------------------------
+Provide feedback to Onboarding Topic preference Agent. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: customer_proxy_agent (to Onboarding Topic preference Agent):
+
+tourist places
+
+--------------------------------------------------------------------------------
+customer_proxy_agent (to Customer Engagement Agent):
+
+Let's find something fun to read.
+Context: 
+{'content': "```json\n{'name': 'Sebastian', 'location': 'Bogota'}\n``` \n", 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+{'content': 'Sebastian is from Bogota. \n', 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+
+--------------------------------------------------------------------------------
+Customer Engagement Agent (to customer_proxy_agent):
+
+Hey Sebastian, did you know that Bogotá is actually higher than Denver, Colorado?  That's pretty high up!  It's like living on a mountaintop!  You must have some amazing views from there. 
+ 
+Are you a coffee fan?  Bogotá is actually considered the birthplace of Colombian coffee!  That means you're living in the heart of coffee country!   😉
+
+Do you have any favorite places in Bogotá that you'd like to tell me about? I'd love to hear what you like to do there! 
+
+
+--------------------------------------------------------------------------------
+{'content': "```json\n{'name': 'Sebastian', 'location': 'Bogota'}\n``` \n", 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+
+
+{'content': 'Sebastian is from Bogota. \n', 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+
+
+{'content': 'Sebastian is from Bogotá, Colombia.  Bogotá is known for its high altitude and for being the birthplace of Colombian coffee. \n', 'role': 'assistant', 'function_call': None, 'tool_calls': None}
+
+
+{'usage_including_cached_inference': {'total_cost': 0.0017289999999999999, 'gemini-1.5-flash-latest': {'cost': 0.0017289999999999999, 'prompt_tokens': 151, 'completion_tokens': 32, 'total_tokens': 183}}, 'usage_excluding_cached_inference': {'total_cost': 0.0017289999999999999, 'gemini-1.5-flash-latest': {'cost': 0.0017289999999999999, 'prompt_tokens': 151, 'completion_tokens': 32, 'total_tokens': 183}}}
+
+
+{'usage_including_cached_inference': {'total_cost': 0.0007559999999999999, 'gemini-1.5-flash-latest': {'cost': 0.0007559999999999999, 'prompt_tokens': 87, 'completion_tokens': 7, 'total_tokens': 94}}, 'usage_excluding_cached_inference': {'total_cost': 0.0007559999999999999, 'gemini-1.5-flash-latest': {'cost': 0.0007559999999999999, 'prompt_tokens': 87, 'completion_tokens': 7, 'total_tokens': 94}}}
+
+
+{'usage_including_cached_inference': {'total_cost': 0.0057610000000000005, 'gemini-1.5-flash-latest': {'cost': 0.0057610000000000005, 'prompt_tokens': 391, 'completion_tokens': 144, 'total_tokens': 535}}, 'usage_excluding_cached_inference': {'total_cost': 0.0057610000000000005, 'gemini-1.5-flash-latest': {'cost': 0.0057610000000000005, 'prompt_tokens': 391, 'completion_tokens': 144, 'total_tokens': 535}}}
+
+

@@ -1,0 +1,8 @@
+# Ignorar directorios de entorno virtual de Python
+venv/
+env/
+
+requirements.txt
+
+myenv
+.cache
